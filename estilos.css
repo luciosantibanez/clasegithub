@@ -1,4 +1,20 @@
 *{
-    color: gray;
+
     font-size: 70px;
 }
+
+.container{
+    /* background-color: black; */
+    animation: cambiaColor 2s infinite;
+    color: rgba(250, 4, 4, 0.911);
+}
+
+@keyframes cambiaColor {
+
+    from{
+        color: rgb(243, 1, 1);
+    }
+    to{
+        color: rgba(65, 1, 1, 0.493);
+    }
+     }
